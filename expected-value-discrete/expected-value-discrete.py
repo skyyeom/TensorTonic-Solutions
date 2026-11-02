@@ -7,6 +7,6 @@ def expected_value_discrete(x: list, p: list) -> float:
     # Write code here
     x = np.asarray(x, dtype = float)
     p = np.asarray(p, dtype = float)
-    exp = np.dot(x,p)
+    exp = float(np.dot(x,p))
 
     return exp
